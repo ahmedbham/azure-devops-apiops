@@ -12,8 +12,8 @@
     - Authentication method: Workload Identity Federation (automatic)
         - Check `Security` - Allow all pipelines to use this connection
 7. In Azure Portal, navigate to Entra ID
-  - In `App Registration`, search for the app registration created for the `Service Connection`
-    - note down the `Application (client) ID` 
+  - In `App Registration`, search for the app registration created for the `Service Connection` (should have a date of today)
+    - note down the `Display name` 
 8. In Azure Portal, navigate to the first APIM instance, which will be the `dev` instance
   - In `Access control (IAM)` 
     - select Add `Role assignments`
