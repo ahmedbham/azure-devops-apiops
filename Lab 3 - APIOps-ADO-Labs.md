@@ -53,9 +53,9 @@
     - Select `Pipeline permissions`
       - Select `Run Extractor` and `Run Publisher` pipelines
         - Click `Save`
-        - Click `Run`        
 12. In Azure DevOps, navigate to the `Pipelines` section
     - Select the `Run Extractor` pipeline
+    - Click `Run`
     - Populate the `Paramters` with appropriate values
       - `APIM instance name`: the name of the `dev` APIM instance
       - `Folder where you want to extract the artifacts`: `artifacts`
