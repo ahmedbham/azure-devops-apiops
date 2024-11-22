@@ -19,8 +19,7 @@
     - select `API Management Service Contributor` role, and click `Next`
     - select `+ Add members`
     - search for the `Application (client) ID` created for the `Service Connection`and `Select` it
-    - click `Review + assign`twice 
-    
+    - click `Review + assign`twice     
 8. In Azure Portal, navigate to the second APIM instance, and repeat step 8
 9. In Azure DevOps, navigate to the `Pipelines` section
   - Create a new pipeline
@@ -54,6 +53,7 @@
     - Select `Pipeline permissions`
       - Select `Run Extractor` and `Run Publisher` pipelines
         - Click `Save`
+        - Click `Run`        
 12. In Azure DevOps, navigate to the `Pipelines` section
     - Select the `Run Extractor` pipeline
     - Populate the `Paramters` with appropriate values
